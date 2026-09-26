@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ~/.gitconfig: read by git every time it runs.
 
 [init]
@@ -27,10 +28,34 @@
 [user]
 	name = Andrew Wu
 	email = wua9828@gmail.com
+=======
+# ~/.gitconfig: read by git every time it runs.
+
+>>>>>>> 0d26790 (Commit 2)
 [init]
 	defaultBranch = main
+
 [core]
 	editor = vim
+
 [pull]
 	rebase = true
+<<<<<<< HEAD
 >>>>>>> 4db7eac (Initial commit.)
+=======
+
+[color]
+	ui = auto
+
+# Aliases: `git st` runs `git status`, and so on.
+[alias]
+	st = status
+	br = branch
+	sw = switch
+	last = log -1 HEAD --stat
+	# One line per commit, with a branch graph:
+	lg = log --oneline --graph --decorate --all
+	# Undo `git add file` (keeps your edits, just unstages them):
+	unstage = restore --staged --
+
+>>>>>>> 0d26790 (Commit 2)
