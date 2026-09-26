@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ~/.gitconfig: read by git every time it runs.
 
 [init]
@@ -22,3 +23,14 @@
 	lg = log --oneline --graph --decorate --all
 	# Undo `git add file` (keeps your edits, just unstages them):
 	unstage = restore --staged --
+=======
+[user]
+	name = Andrew Wu
+	email = wua9828@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = true
+>>>>>>> 4db7eac (Initial commit.)
